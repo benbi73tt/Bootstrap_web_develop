@@ -1,5 +1,8 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import  Jumbotron  from './Components/Jumbotron';
 
-export const About=()=>(
-    <h1>Page About</h1>
-)
+export const About = () => (
+    <>
+    <Jumbotron/>
+    </>
+);

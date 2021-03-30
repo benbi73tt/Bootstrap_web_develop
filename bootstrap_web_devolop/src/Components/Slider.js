@@ -7,7 +7,7 @@ import tree from '../img/tree.jpg';
 export default function Slider() {
         return (
             <Carousel>
-                <Carousel.Item style={{'height':'600px'}}>
+                <Carousel.Item style={{'height':'560px'}}>
                     <img className='d-block w-100'
                     src={ocean}
                     alt="First slide"/>
@@ -16,7 +16,7 @@ export default function Slider() {
                         <p>Фон океан - 50 фото для презентаций и картинок на рабочий ст</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item style={{'height':'600px'}}>
+                <Carousel.Item style={{'height':'560px'}}>
                     <img className='d-block w-100'
                     src={tree}
                     alt="second slide"/>
@@ -25,7 +25,7 @@ export default function Slider() {
                         <p>Фон океан - 50 фото для презентаций и картинок на рабочий ст</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item style={{'height':'600px'}}>
+                <Carousel.Item style={{'height':'560px'}}>
                     <img className='d-block w-100'
                     src={ocean}
                     alt="First slide"/>
